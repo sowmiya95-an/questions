@@ -1,0 +1,66 @@
+ {
+        "id": ,
+        "slug": "",
+        "brand": "",
+        "name": "",
+        "price": ,
+        "countInStock": ,
+        "rating": ,
+        "numReviews": ,
+        "ingredientList": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinType": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "skinConcern222": [
+            "",
+            "",
+            ""
+        ],
+        "category": [
+            ""
+        ],
+        "description": {
+            "smallDes": "",
+            "largeDes": ""
+        },
+        "imageLinks": {
+            "img1": "",
+            "img2": "",
+            "img3": ""
+        },
+        "howTo": "",
+        "qty": 0
+    }
+
+ 

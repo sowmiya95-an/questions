@@ -1,0 +1,63 @@
+#toggle {
+  cursor: pointer;
+  color: black;
+  font-size: 30px;
+  margin-left: 20px;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  position: relative;
+  top: -5px;
+  right: 55px;
+}
+
+#close {
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 20px;
+  border: none;
+  padding: 15px;
+  position: relative;
+  right: -111px;
+  top: 3px;
+  background: transparent;
+  color: white;
+}
+
+.burgerbar {
+  height: 44vh;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.85;
+  color: white;
+  width: 350px;
+  position: fixed;
+  z-index: 200;
+  right: -100%;
+  top: 90px;
+  animation: slide-open 0.45s forwards;
+}
+
+.burgerbar .links {
+  color: white!important;
+  position: relative !important;
+  top: -28px !important;
+}
+
+.burgerbar.close {
+    right: 0;
+    animation: slide-closed 2s forwards;
+}
+
+@keyframes slide-open {
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes slide-closed {
+    100% {
+      right: -100%;
+    }
+  }
+  

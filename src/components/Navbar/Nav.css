@@ -1,0 +1,45 @@
+.navbar {
+  background-color: white;
+}
+
+.navbar a {
+  color: black !important;
+  padding: 12px;
+}
+
+.links.RB {
+  position: relative;
+  left: 150px;
+}
+
+.glowNav {
+  position: relative;
+  font-size: 4.5rem;
+  left: 6%;
+  font-weight: bolder;
+}
+
+.glowNav {
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: black;
+  }
+  50% {
+    color: rgb(151, 79, 28);
+  }
+  100% {
+    color: rgb(212, 159, 22);
+  }
+}
+
+.links {
+  text-align: left;
+  margin-right: 131px;
+  margin-left: 0.5px;
+  font-size: 25px;
+  position: relative;
+  left: 60px;
+}

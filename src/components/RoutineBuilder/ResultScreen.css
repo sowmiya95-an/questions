@@ -1,0 +1,85 @@
+.resultDivs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.nameTitle {
+  margin-top: 6.5%;
+  font-weight: bolder;
+  font-size: 170px;
+  height: 100vh;
+  width: 1500px;
+  text-align: center;
+}
+
+.productpic {
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  align-content: center;
+  position: relative;
+  top: 27px;
+}
+
+p{
+  top: 60px;
+  font-size: 40px;
+}
+
+.resultBox {
+  display: table;
+  height: 100vh;
+  color: black;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  width: 1700px;
+  margin-top: 1px;
+}
+
+.iconDes {
+  font-size: 15px;
+  width: 350px;
+  position: relative;
+  left: 1200px;
+  top: -300px;
+}
+
+.addButtons {
+  font-size: 20px;
+  display: table-cell;
+  vertical-align: bottom;
+  position: relative;
+  left: 520px;
+  top: -300px;
+}
+
+.discount{
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 22px;
+  color: black;
+}
+
+.discount-name{
+  color: rgb(197, 168, 5);
+  font-size: 35px;
+}
+
+.miniButton-extra{
+  margin: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  border-width: 2px;
+  border-radius: 18px;
+  padding: 15px 25px;
+  position: relative;
+  left: 900px;
+  margin-bottom: 22px;
+}
+
+.miniButton-extra:hover {
+  background-color: rgb(209, 239, 240);
+}

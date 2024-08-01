@@ -1,0 +1,11 @@
+.checkoutDiv {
+  height: 20%;
+  margin: auto;
+  margin-top: 6%;
+  width: 39%;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.checkoutText{
+  padding: 9px;
+}

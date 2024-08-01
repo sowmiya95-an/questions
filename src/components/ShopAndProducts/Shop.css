@@ -1,0 +1,137 @@
+.displayPics {
+  width: 240px;
+  height: 225px;
+  margin-top: -15px;
+  /* border-style: solid;
+  border-width: 1.1px;
+  border-color: #8b33f0; */
+}
+
+.imgCont {
+  float: left;
+  width: 300px;
+  height: 440px;
+  padding: 7px;
+  text-align: center;
+  margin-top: 1px;
+  margin-bottom: 90px;
+  margin-right: 11.5px;
+  margin-left: 135px;
+  background-color: transparent;
+  color: black;
+  position: relative;
+}
+.rating span {
+  color: gold;
+  margin: 0.1rem;
+}
+
+.rating span:last-child {
+  color: black;
+}
+.imgCont .rating {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 395px;
+  margin: auto;
+}
+
+.imgCont:hover {
+  cursor: pointer;
+}
+
+.card-title {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 20px;
+}
+
+.card-subtitle {
+  font-size: 18px;
+}
+
+.h5 {
+  font-size: 1.15rem;
+}
+
+a {
+  text-decoration: none;
+  color: black !important;
+}
+
+.addCart{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1.95rem;
+  height: 1.95rem;
+}
+
+.addCart:hover {
+  background-color: rgb(148, 235, 148);
+}
+
+.moneyOff {
+  width: 1500px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.togetherIntro {
+  position: relative;
+  left: 8%;
+  width: 1700px;
+}
+
+.skincareCaps {
+  position: relative;
+  left: 43%;
+  top: 65px;
+  width: 50px;
+}
+
+.introText {
+  font-size: 18px;
+  text-align: center;
+  width: 600px;
+  position: relative;
+  left: 43%;
+  top: -245px;
+}
+
+.maleSkincare {
+  width: 470px;
+  height: 320px;
+  position: relative;
+  left: 15%;
+}
+
+.miniCircle {
+  position: relative;
+  top: -80px;
+  width: 135px;
+  height: 110px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circleAds {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-left: 150px;
+  margin-bottom: 85px;
+}
+
+.circleText {
+  position: relative;
+  right: 9%;
+  top: 20px;
+}

@@ -1,0 +1,33 @@
+.loadingP {
+  text-align: center;
+  margin-top: 18%;
+  margin-left: -185px;
+}
+
+
+.App-logo {
+  height: 250px;
+  width: 250px;
+  align-items: center;
+  margin-top: -50px;
+  z-index: -1;
+  position: relative;
+  border-radius: 90%;
+  margin: auto;
+  left: 65px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-bounce infinite 10s linear;
+  }
+}
+
+@keyframes App-logo-bounce {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
